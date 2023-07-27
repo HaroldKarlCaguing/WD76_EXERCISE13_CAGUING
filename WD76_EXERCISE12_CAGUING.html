@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduction to Javascript</h1>
+    <p id="paragraph1">Sample Text</p>
+    <p id="paragraph2">Sample Text</p>
+    <p id="paragraph3">Sample Text</p>
+
+    <button onclick="alert('Hello World')">Click Me</button>
+    <button onmouseout="alert('Hello World')">Hover outside Me</button>
+    <button onmouseover="alert('Hello World')">Hover Me</button>
+    <hr>
+    <button onclick="sampleFunction()">Complied Code</button>
+    <button onclick="showName('Raymart',200)">Show Raymart</button>
+    <button onclick="showName('Jesnin',1000)">Show Jesnin</button>
+    <button onclick="showName('Noli',21)">Show Noli</button>
+    <hr>
+    <button onclick="showSum(12,56)">Show Sum</button>
+    <button onclick="showSum2()">Show Sum</button>
+    <hr>
+    Number 1: <input type="number" id="operand1">
+    Number 2: <input type="number" id="operand2">
+    <br>
+    <button onclick="showSumFinal()">Get Sum</button>
+    <button onclick="showDifferenceFinal()">Get Difference</button>
+    <button onclick="showProductFinal()">Get Product</button>
+    <button onclick="showQoutientFinal()">Get Qoutient</button>
+
+
+    <p>
+        <label>Feet</label>
+        <input id="inputFeet" type="number" placeholder="Feet"
+        oninput="lengthConverter()" onchange="lengthConverter()">
+      </p>
+      <p>cm: <span id="outputMeters"></span>
+    </p>
+
+    
+</body>
+<script>
+    console.log("Congratulation to Everyone");
+</script>
+<script src="EXERCISE12_CAGUING.js"></script>
+</html>
